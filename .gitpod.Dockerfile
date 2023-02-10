@@ -1,4 +1,4 @@
-FROM wordpress:latest
+FROM amd64/wordpress:latest
 
 # Allow devcontainer/Codespace use www-data as the remote user instead of root.
 RUN usermod --shell /bin/bash www-data
